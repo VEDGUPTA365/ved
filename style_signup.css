@@ -1,0 +1,86 @@
+body{
+    font-family: 'Poppins';
+    background-color: #283828;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    top: 19%;
+    margin: 20px;
+    background-color: #a3d977;
+    height:auto;
+    width: 50%;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+
+}
+
+.heading{
+  font-size:30px;
+  background-color: #073626;
+  color: beige;
+  margin: 20px;
+  border-radius: 20px;
+  padding:20px;
+  text-align: center;
+}
+
+.getdata{
+    font-size: 20px;
+}
+
+
+#mail,#pass{
+    width: 60%;
+    height: 30px;
+}
+
+.email, .pass{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.button{
+    position: relative;
+    text-align: center;
+}
+
+#submit{
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    border-width: 0cap;
+    background-color: #073626;
+    color: beige;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+#submit:hover{
+    background-color: #138f66;
+}
+#mail{
+     margin-left:37px;
+}
+
+.sign-in{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: #073626;
+    font-weight: bold;
+}
